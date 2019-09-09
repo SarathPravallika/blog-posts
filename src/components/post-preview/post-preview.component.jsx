@@ -21,4 +21,4 @@ const PostPreview = ({
     );
 };
 
-export default withRouter(PostPreview);
+export default withRouter(React.memo(PostPreview));

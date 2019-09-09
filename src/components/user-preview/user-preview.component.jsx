@@ -15,4 +15,4 @@ const UserPreview = ({
     </Card>
 );
 
-export default withRouter(UserPreview);
+export default withRouter(React.memo(UserPreview));
