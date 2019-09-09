@@ -12,3 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+._loading_overlay_wrapper--active {
+  min-height: 50px;
+}
